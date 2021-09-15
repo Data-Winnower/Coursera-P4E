@@ -5,7 +5,7 @@
 # Select file to open 
 fname = input("Enter file name: ")
 # or open the default file (for testing)
-if len(fname) < 1 : fname = "mbox-short.txt"
+if len(fname) < 1 : fname = "mbox.txt"
 # Create Handle
 fh = open(fname)
 
